@@ -1,6 +1,3 @@
-Project URL: https://github.com/pepstech/Full_Stack_ACE
-
-
 # Full_Stack_ACE
 
 A comprehensive guide and starter repository for Full Stack Development using Java. This project aims to provide a structured roadmap, hands-on examples, and resources for mastering end-to-end development with Java-based technologies.
@@ -24,6 +21,8 @@ A comprehensive guide and starter repository for Full Stack Development using Ja
 This repository is a learning and project workspace for aspiring and experienced developers who want to become proficient Full Stack Developers using Java. It covers everything from Java fundamentals, backend APIs, database integration, to frontend frameworks and deployment.
 
 ---
+
+Project URL: https://github.com/pepstech/Full_Stack_ACE
 
 ## Tech Stack
 
