@@ -1,136 +1,72 @@
 # Full_Stack_ACE
 https://roadmap.sh/projects/single-page-cv
-Project URL: https://github.com/pepstech/Full_Stack_ACE
-
-A comprehensive guide and starter repository for Full Stack Development using Java...
-
----
-
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Roadmap: Full Stack Java Development](#roadmap-full-stack-java-development)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Overview
-
-This repository is a learning and project workspace for aspiring and experienced developers who want to become proficient Full Stack Developers using Java. It covers everything from Java fundamentals, backend APIs, database integration, to frontend frameworks and deployment.
-
----
-
-Project URL: https://github.com/pepstech/Full_Stack_ACE
-
-## Tech Stack
-
-- **Backend:** Java (Spring Boot), REST API
-- **Frontend:** HTML, CSS, JavaScript, React.js (or Angular)
-- **Database:** MySQL / PostgreSQL / MongoDB
-- **DevOps:** Docker, GitHub Actions, CI/CD
-- **Testing:** JUnit, Mockito, Selenium (for frontend)
-- **Others:** Maven/Gradle, JWT Authentication
-
----
-
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/pepstech/Full_Stack_ACE.git
-   cd Full_Stack_ACE
-   ```
-
-2. **Install prerequisites:**
-   - Java 17+
-   - Node.js & npm
-   - Maven / Gradle
-   - Docker (optional for containerization)
-   - MySQL/PostgreSQL/MongoDB
-
-3. **Run the backend:**
-   ```bash
-   cd backend
-   mvn spring-boot:run
-   ```
-
-4. **Run the frontend:**
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
-
----
-
-## Roadmap: Full Stack Java Development
-
-### 1. Foundations
-
-- [ ] **Java Basics:** Data types, OOP, Collections, Exception handling
-- [ ] **Version Control:** Git & GitHub fundamentals
-
-### 2. Backend Development
-
-- [ ] **Spring Boot:** REST APIs, Dependency Injection, MVC, Error Handling
-- [ ] **ORM:** JPA/Hibernate for DB integration
-- [ ] **Authentication:** JWT, OAuth2
-- [ ] **Testing:** JUnit, Integration Tests
-
-### 3. Database
-
-- [ ] **Relational DB:** MySQL/PostgreSQL CRUD operations
-- [ ] **NoSQL (Optional):** MongoDB basics
-
-### 4. Frontend Development
-
-- [ ] **HTML/CSS/JS:** Core web technologies
-- [ ] **Framework:** React.js or Angular basics and setup
-- [ ] **State Management:** Redux (for React) or NgRx (for Angular)
-- [ ] **API Integration:** Fetching backend data
-
-### 5. Advanced Topics
-
-- [ ] **DevOps:** Dockerize applications, CI/CD with GitHub Actions
-- [ ] **Cloud Deployment:** Deploy on AWS/GCP/Azure (optional)
-- [ ] **Security:** Secure coding practices, HTTPS, CORS
-
-### 6. Project & Portfolio
-
-- [ ] **Capstone Project:** Build a full stack application (e.g., task manager, e-commerce)
-- [ ] **Documentation:** Write project documentation (README, API docs)
-- [ ] **Deployment:** Deploy your app publicly
-
----
-
-## Project Structure
-
+```html name="resume.html"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO Meta Tags -->
+  <title>Karthick - Resume</title>
+  <meta name="description" content="Resume of Karthick – 13 years experience in automotive industry, Java Full Stack Developer.">
+  <meta name="keywords" content="Karthick, Resume, Automotive, Java Full Stack, Hosur, Experience">
+  <meta name="author" content="Karthick">
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Karthick - Resume">
+  <meta property="og:description" content="Resume of Karthick – Experienced Automotive Engineer and Java Full Stack Developer based in Hosur.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-domain.com/karthick-resume">
+  <meta property="og:image" content="https://your-domain.com/karthick-profile.jpg">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Karthick</h1>
+    <p>Automotive Professional &amp; Java Full Stack Developer</p>
+    <address>
+      Hosur, India<br>
+      <a href="tel:+919944002795">Ph: 9944002795</a>
+    </address>
+  </header>
+  <main>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>B.E. CES</h3>
+          <p><strong>ACE Hosur</strong></p>
+        </li>
+      </ul>
+    </section>
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Gold medal in swimming</li>
+        <li>State first class in 12th</li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <h3>Automotive Company</h3>
+        <p>13 years of experience in the automotive industry</p>
+      </article>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>JAVA Full Stack Development</strong><br>
+          PEPS-TECH R and D, Hosur
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Karthick</p>
+  </footer>
+</body>
+</html>
 ```
-Full_Stack_ACE/
-├── backend/         # Java Spring Boot backend code
-├── frontend/        # React.js or Angular frontend code
-├── docs/            # Documentation and resources
-├── .github/         # GitHub configs and workflows
-└── README.md
-```
-
----
-
-## Contributing
-
-Contributions are welcome! Please fork the repo and create a pull request for new features, improvements, or bug fixes. For major changes, open an issue first to discuss what you would like to change.
-
----
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
-
----
-
-Happy coding and learning! 🚀
+This code uses semantic HTML, sets up SEO and Open Graph tags, and is ready for further styling. Be sure to add your favicon as favicon.ico in your project directory.
